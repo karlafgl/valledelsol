@@ -27,6 +27,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -45,9 +46,13 @@
 
     <!-- NAVIGATION -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="/img/logoValledelSol.png" width="100" height="100" alt="logo nav">
+        <a class="navbar-brand" href="https://www.facebook.com/ValledelsolLosCabos" target="_blank">
+            <i class="fab fa-facebook-f fa-1x fa-lg"></i>
         </a>
+        <a class="navbar-brand" href="https://www.instagram.com/valledelsolcabo/" target="_blank">
+            <i class="fab fa-instagram fa-1x fa-lg"></i>
+        </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -73,8 +78,7 @@
     <!-- About us  -->
     <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="about">
         <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading display-4 font-weight-bold">About us</h2>
-            <hr class="my-4">
+            <img src="/img/logoValledelSol.png" alt="">
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 card border-0  mt-4">
@@ -84,12 +88,12 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 pl-5 pt-3 pr-5 card border-0">
                 <div>
-                    <h3>Valle del Sol</h3>
+                    <h3 class="titles">About us</h3>
                     <p>If the reason’s you came to Cabo was to get away from the city and pressures of life north of the border, and find a home where you could relax and enjoy the tranquility of Baja lifestyle with all it has to offer, then Valle Del Sol
                         might be the little corner of heaven you’ve been looking for.</p>
                     <p>Nestled in the Valley of the Sun, where the tropical desert meets the lush foothills of the Sierra La Laguna, just 3 miles from town overlooking and Cabo bay & the Sea of Cortez from the heights of El Tezal, Valle Del Sol is the only
                         gated ranch style community in Los Cabos with 24 hour security and easy access to everything in Cabo.</p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="btn bg-pink text-white-opacity" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Read More
             </a>
                     <div class="collapse" id="collapseExample">
@@ -107,9 +111,9 @@
     </section>
 
     <!-- Proyect -->
-    <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="about">
+    <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="proyect">
         <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading display-4 font-weight-bold">Proyect</h2>
+            <h2 class="section-heading display-4 font-weight-bold titles">Proyect</h2>
             <hr class="my-4">
         </div>
         <div class="row">
@@ -142,19 +146,80 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 card border-0  mt-4">
-
+                <div>
+                    <p class="titles h3">Amenities</p>
+                    <ul>
+                        <li>Woven fence without nails</li>
+                        <li>Covered Parking</li>
+                        <li>Shuttered windows</li>
+                        <li>Flower window boxes</li>
+                        <li>Spice Garden</li>
+                        <li>Fire Pit</li>
+                        <li>Gated Community</li>
+                        <li>24/7 Security</li>
+                        <li>Community Pool</li>
+                        <li>Small Storage</li>
+                        <li>Mountain Trails</li>
+                        <li>Horseback riding Available</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Plans -->
+    <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="floorPlans">
+        <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading display-4 font-weight-bold titles">Floor Plans</h2>
+            <hr class="my-4">
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 card border-0">
+                <img src="/img/1-bedrom-Loft.png" alt="Plans for 1 bedroom" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 card border-0 ">
+                <img src="/img/2-bedrom-Loft.png" alt="Plans for 1 bedroom" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <div class="container">
+        <div class="row">
+            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+            </a>
+        </div>
+    </div>
+
+
     <!-- Form Contact-->
     <div class="container-fluid mb-5 shadow-lg pt-5 pb-5 rounded" id="contact">
         <div class="row mt-5">
-            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.3699142679193!2d-109.88847768503379!3d22.93659998499665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU2JzExLjgiTiAxMDnCsDUzJzEwLjYiVw!5e0!3m2!1ses!2smx!4v1582546786265!5m2!1ses!2smx"
-                    width="600" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.3699142679193!2d-109.88847768503379!3d22.93659998499665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU2JzExLjgiTiAxMDnCsDUzJzEwLjYiVw!5e0!3m2!1ses!2smx!4v1582546786265!5m2!1ses!2smx"
+                        width="600" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
                 <form id="contact-form" name="contact" method="POST" netlify>
                     <div class="card border-danger rounded-0">
                         <div class="card-header p-0">
@@ -201,160 +266,25 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <!--
-<footer class="page-footer font-small unique-color-dark">
-
-  <div style="background-color: #6351ce;">
-    <div class="container">
-
-      <div class="row py-4 d-flex align-items-center">
-
-      
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
-        
-
-       
-        <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-     
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f white-text mr-4"> </i>
-          </a>
-        
-          <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4"> </i>
-          </a>
-         
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g white-text mr-4"> </i>
-          </a>
-         
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
-          </a>
-         
-          <a class="ins-ic">
-            <i class="fab fa-instagram white-text"> </i>
-          </a>
-
-        </div>
-    
-
-      </div>
-     
-
-    </div>
-  </div>
-
-
-  <div class="container text-center text-md-left mt-5">
-
-
-    <div class="row mt-3">
-
-   
-      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-     
-        <h6 class="text-uppercase font-weight-bold">Company name</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
-      </div>
-     
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-      
-        <h6 class="text-uppercase font-weight-bold">Products</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="#!">MDBootstrap</a>
-        </p>
-        <p>
-          <a href="#!">MDWordPress</a>
-        </p>
-        <p>
-          <a href="#!">BrandFlow</a>
-        </p>
-        <p>
-          <a href="#!">Bootstrap Angular</a>
-        </p>
-
-      </div>
-     
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-      
-        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="#!">Your Account</a>
-        </p>
-        <p>
-          <a href="#!">Become an Affiliate</a>
-        </p>
-        <p>
-          <a href="#!">Shipping Rates</a>
-        </p>
-        <p>
-          <a href="#!">Help</a>
-        </p>
-
-      </div>
-    
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-     
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-        <p>
-          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-      </div>
-      
-
-    </div>
-  </div>
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-  </div>
-</footer>
--->
 
     <!-- Footer -->
     <footer class="page-footer text-white bg-dark pt-4">
         <div class="container">
             <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item">
-                    <a class="mx-1 text-white" href="">
-                        <i class="fab fa-blogger fa-2x fa-lg"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="mx-1 text-white" href="" target="_blank">
+                    <a class="mx-1 text-white" href="https://www.instagram.com/valledelsolcabo/" target="_blank">
                         <i class="fab fa-instagram fa-2x fa-lg"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="mx-1 text-white" href="" target="_blank">
+                    <a class="mx-1 text-white" href="https://www.facebook.com/ValledelsolLosCabos" target="_blank">
                         <i class="fab fa-facebook-f fa-2x fa-lg"></i>
                     </a>
                 </li>
             </ul>
         </div>
         <div class="text-center">
-            <p>Info@</p>
+            <!-- <p>Info@</p> -->
         </div>
         <div class="footer-copyright text-center py-3">Copyright ©
             <a href="#" class="text-white"> Valle del Sol -  <span id="copyright-year">2020</span></a>

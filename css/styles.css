@@ -8,42 +8,43 @@ header {
 }
 
 header video {
-position: absolute;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: 40%;
-z-index: 0;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 40%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 header .container {
-position: relative;
-z-index: 2;
+    position: relative;
+    z-index: 2;
 }
-  
+
 header .overlay {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-background-color: black;
-opacity: 0.5;
-z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
 }
-  
-.textPink {
-    color: #e83e8c
+
+.titles {
+    color: #a75f49;
+    font-family: 'Dancing Script';
 }
 
 .bg-pink {
-    background: #e83e8c
+    background: #a75f49
 }
 
 .fixed-top.scrolled {
@@ -57,4 +58,8 @@ z-index: 1;
 
 .margin-top-h1 {
     margin-top: 22rem;
+}
+
+.row {
+    margin: 15px;
 }
