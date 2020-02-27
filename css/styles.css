@@ -63,3 +63,12 @@ header .overlay {
 .row {
     margin: 15px;
 }
+
+.parallax {
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#seccion1 {
+    background-image: url(../img/casaVerde1.jpeg);
+}
