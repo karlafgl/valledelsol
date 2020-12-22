@@ -3,15 +3,134 @@ body {
     padding: 0;
 }
 
-#my-video {
-    position: relative;
-    background-color: black;
-    height: 60vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+header {
+    height: 416px;
+    background-image: url("/img/valle-del-sol-landscape-beautiful-view.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+header .row {
+    height: 416px;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 100%;
+}
+
+/* sec1 */
+
+.sec1 {
+    background-color: #edebeb;
+}
+
+.sec1 h1 {
+    padding-bottom: 25px;
+}
+
+.sec1 p {
+    text-align: left;
+}
+
+/* sec2 */
+
+.sec2 {
+    color: white;
+    background-image: url("/img/valle-del-sol-terraza-bcs.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.sec2 h2 {
+    padding-top: 25px;
+}
+
+/* gallery */
+
+.gallery {
+    background-color: #171b21;
+}
+
+/* project */
+
+.projectmain {
+    background-color: #edebeb;
+}
+
+.project {
+        background: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* sec3 */
+
+.sec3 {
+    background-color: #edebeb;
+}
+
+/* sec4 */
+
+.sec4b {
+    background-color: #edebeb;
+    color: black;
+}
+
+.sec4b h2 {
+    text-align: center;
+}
+
+.sec4a {
+    background-color: #18120f;
+    
+}
+
+/* sec6 */
+
+.sec6 {
+    background-color: #18120f;
+}
+
+.sec6 img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 1room */
+
+.oneroom {
+    background-color: #171b21;
+    color: white;
+}
+
+.oneroom img {
+    margin-bottom: 50px;
+}
+
+/* 2room */
+
+.tworoom {
+    background-color: #18120f;
+    color: white;
+}
+
+.tworoom img {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.page-footer {
+    background-color: #18120f;
+}
 
 /* Smartphones (portrait) */
 
@@ -39,13 +158,8 @@ body {
     }
 }
 
-.titles {
-    color: #a75f49;
-    font-family: 'Dancing Script';
-}
-
 .bg-pink {
-    background: #a75f49
+    background: #18120f;
 }
 
 .fixed-top.scrolled {
