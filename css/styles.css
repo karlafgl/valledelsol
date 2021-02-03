@@ -196,3 +196,87 @@ header img {
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
+
+/* HOMEPAGE SCHEDULE VIRTUAL TOUR MODAL */
+#scheduleVirtualTourModal
+{
+    top: 10%;
+}
+#scheduleVirtualTourModal .modal-content {
+     background-color: none; 
+     border-radius: none; 
+     border: none; 
+     background-color: #fff;
+     color:#000000;
+}
+
+#scheduleVirtualTourModal .modal-header
+{
+    background-color: #000000;
+    align-items: center;
+    border: none;
+}
+
+#scheduleVirtualTourModal .modal-header .modal-title span
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@media(max-width:575px)
+{
+    #scheduleVirtualTourModal .modal-header .modal-title span
+    {
+        font-size: 1rem;
+    }
+}
+
+#scheduleVirtualTourModal .modal-header .closeButtonContainer {
+    justify-content: center;
+    background-color: rgb(156, 16, 6);
+}
+
+#scheduleVirtualTourModal .modal-header .closeButtonContainer .close {
+    font-size: 2rem;
+    font-weight: normal;
+    opacity:1;
+    text-shadow: none;
+}
+
+#scheduleVirtualTourModal .modal-body p {
+    font-size: 1.3rem;
+}
+
+#scheduleVirtualTourModal .modal-body img {
+    object-fit: cover;
+}
+#scheduleVirtualTourModal .modal-body .contactUsBtnContainer
+{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    color:#ffffff;
+}
+#scheduleVirtualTourModal .modal-body .contactUsBtnContainer .phoneNumber
+{
+    color:#ffffff;
+}
+#scheduleVirtualTourModal .modal-body .contactUsBtnSchedule 
+{
+    padding: 0.375rem 7rem;
+    margin-right:0;
+    border: none;
+    font-weight: bold;
+}
+@media(max-width:575px)
+{
+    #scheduleVirtualTourModal .modal-body .contactUsBtnContainer
+    {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    #scheduleVirtualTourModal .modal-body .contactUsBtnSchedule 
+    {
+        font-size: 0.7rem;
+        padding: 0.375rem 3rem;
+    }
+}
