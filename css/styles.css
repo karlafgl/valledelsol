@@ -198,9 +198,14 @@ header img {
 }
 
 /* HOMEPAGE SCHEDULE VIRTUAL TOUR MODAL */
-#scheduleVirtualTourModal
+@media(max-width:575px)
 {
+    #scheduleVirtualTourModal
+    {
+        top:5%;
+    }
 }
+
 #scheduleVirtualTourModal .close {
     color: #ffffff;
 }
