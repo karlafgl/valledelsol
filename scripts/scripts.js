@@ -14,12 +14,12 @@ jQuery(document).ready(function($) {
     }
     $('[data-scroll]').on('click', scrollToSection);
     
-    /*
+    
         //show schedule virtual tour popup after 30 seconds
         setTimeout(function () {
             $('#scheduleVirtualTourModal').modal();
         }, 30000);
-    */
+    
     
 }(jQuery));
 
