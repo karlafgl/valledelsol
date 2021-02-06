@@ -19,7 +19,10 @@ jQuery(document).ready(function($) {
         setTimeout(function () {
             $('#scheduleVirtualTourModal').modal();
         }, 30000);
-    
+        //close modal when contactUsBtnSchedule clicked
+        $('.contactUsBtnSchedule').click(function(){ 
+            $('#scheduleVirtualTourModal').modal().hide();
+        });
     
 }(jQuery));
 
