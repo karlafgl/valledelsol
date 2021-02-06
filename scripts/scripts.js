@@ -22,6 +22,10 @@ jQuery(document).ready(function($) {
         //close modal when contactUsBtnSchedule clicked
         $('.contactUsBtnSchedule').click(function(){ 
             $('#scheduleVirtualTourModal').modal().hide();
+            if ($('.modal-backdrop').is(':visible')) {
+              $('body').removeClass('modal-open'); 
+              $('.modal-backdrop').remove(); 
+            };
         });
     
 }(jQuery));
