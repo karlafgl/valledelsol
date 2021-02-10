@@ -73,10 +73,19 @@
 <body>
 
     <!-- NAVIGATION -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="https://www.facebook.com/ValledelsolLosCabos" target="_blank">
-            <i class="fab fa-facebook-f fa-1x fa-lg"></i>
-        </a>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top navbarfix">
+        <div class="col-12">
+            <a class="navbar-brand" href="https://www.facebook.com/ValledelsolLosCabos" target="_blank">
+                <i class="fab fa-facebook-f fa-1x fa-lg"></i>
+            </a>
+            <div class="float-right pt-2 d-none">
+                <form id="subscribe_newsletter" name="subscribe_form" method="POST" netlify>
+                    <label for="subscriber_email">Subscribe to our newsletter</label>
+                    <input type="email" id="subscriber_email" class="" name="email" placeholder="Email" required>
+                    <input type="submit" value=">" class="btn text-white">
+                </form>
+            </div>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
